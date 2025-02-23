@@ -5,9 +5,9 @@ import Hero from "./Components/main/Hero";
 const App = () => {
   return (
     <>
-      <div className="w-screen h-screen bg-red-100 flex">
+      <div className="w-screen h-screen flex">
         <Sidebar />
-        <Hero/>
+        <Hero />
       </div>
     </>
   );
